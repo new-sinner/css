@@ -1,12 +1,30 @@
-#divPanel button:hover {
-  color: black;
+#godTools {
+    z-index: 9999;
+    position: fixed;
+    bottom: 15px;
+    right: 50px;
+    background-color: white;
+    border: 1.5px solid black;
+    padding: 5px;
 }
 
-input {
-  background-color: #00d563;
+#godTools i {
+    color: #00d563;
 }
 
-body {
-  color: #00d563;
-  background-color: #00d563;
+#godTools button {
+    width: 90px;
+    display: block; 
+    cursor: pointer;
+    color: #00d563;
+    background-color: inherit;
+    border: none;
+    text-align: center;
+    font-size: large;
+    outline: none;
+    padding: 5px 0px 5px 0px;
+}
+
+#godTools button:hover {
+    color: black;
 }
